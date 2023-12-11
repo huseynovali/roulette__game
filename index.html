@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- First Page -->
+    <div class="enter__page">
+      <div class="center">
+        <div class="username__input__content">
+            <div class="user1__content">
+                <h1>User 1</h1>
+                <input type="text" id="user1" />
+            </div>
+         
+            <div class="user2__content">
+                <h1>User 2</h1>
+                <input type="text" id="user2" />
+            </div>
+
+        </div>
+        <button class="start__button">Start</button>
+      </div>
+    </div>
+
+    <!-- Game Page -->
+    <div class="game__page">
+        <h2 style="margin-bottom: 20px;">Aye 1-6 arasidir daxil et dana</h2>
+      <div class="game_area_user">
+     
+        <div class="user1rand">
+            <h2 class="user1name"></h2>
+            <input type="text"  id="user1bullet">
+        </div>
+        <div class="user2rand">
+            <h2 class="user2name"></h2>
+            <input type="text"  id="user2bullet">
+        </div>
+      </div>
+      <button class="fire__button">Fire</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
